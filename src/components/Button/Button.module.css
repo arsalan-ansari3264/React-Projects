@@ -1,0 +1,41 @@
+
+.primary_btn{
+    height: 44px;
+    width: 222px;
+    padding: 10px 18px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: all ease .3s;
+}
+.outline_btn{
+    height: 44px;
+    width: 100%;
+    padding: 10px 18px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: all ease .3s;
+}
+.primary_btn:hover{
+    background-color: transparent;
+    color: black;
+}
